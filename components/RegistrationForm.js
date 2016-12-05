@@ -1,0 +1,23 @@
+// one form
+// 2 input elements
+//   one text
+//   one password
+// one button with submit
+
+const React = require('react');
+
+class RegistrationForm extends React.Component {
+  render() {
+    return (
+      <form>
+        <label>Username</label>
+        <input type="text" />
+        <label>Password</label>
+        <input type="password" />
+        <button type="submit">Submit</button>
+      </form>
+    );
+  }
+}
+
+module.exports = RegistrationForm;
